@@ -1,49 +1,53 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa"; // GitHub icon for the button
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
+import chatImage from "../assets/chatbot-robot-virtual-assistant-cartoon-vector-illustration-isolated-white-background-robotic-techni.jpg";
+import passImage from "../assets/password.jpg";
+import intervueImage from "../assets/2021-10-27_understanding-great-behavioral-interviewing-questions.jpg";
+import pharmImage from "../assets/buy-online-pharmacy-vector-illustration-cartoon-flat-tiny-people-buying-pills-drugstore-healthcare-mobile-buy-online-178065150.webp";
+import resImage from "../assets/Cartoon-employer-reviewing-a-resume.webp";
+import enImage from "../assets/encryption-security-infosec-illustration-getty.jpg";
 
 const projects = [
   {
     id: 1,
     name: "Intervue Hub",
     technologies: "MOCK INTERVIEW",
-    image: employeeMSImage,
+    image: intervueImage,
     github: "https://github.com/Mythili2909/App_Development",
   },
   {
     id: 2,
     name: "CureCart",
     technologies: "ONLINE MEDICAL SHOP",
-    image: bookMSImage,
+    image: pharmImage,
     github: "https://github.com/Mythili2909/Online-Medical-Shop-Application",
   },
   {
     id: 3,
     name: "ATS Checker",
     technologies:"RESUME SCORE CHECKER",
-    image: employeeMSImage,
+    image: resImage,
     github: "https://github.com/YouafKhan1",
   },
   {
     id: 4,
     name: "TalkWise",
     technologies: "ChatBot",
-    image: bookMSImage,
+    image: chatImage,
     github: "https://github.com/Mythili2909/TASK-2-CHAT-BOT",
   },
   {
     id: 5,
     name: "KeyCrpyt",
     technologies: "ENCRYPTION & DECRYPTION",
-    image: employeeMSImage,
+    image: enImage,
     github: "https://github.com/Mythili2909/Encryption_Decryption",
   },
   {
     id: 6,
     name: "SafeOrWeak",
     technologies: "PASSWORD STRENGTH CHECKER",
-    image: bookMSImage,
+    image: passImage,
     github: "https://github.com/Mythili2909/Password_checker",
   },
 ];
